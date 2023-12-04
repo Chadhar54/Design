@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.heading{
+    color: rgb(172, 172, 9);
+    padding: 30px;
+    font-size: 2rem;
+}
+
+.para{
+    width: 35%;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.para>span{
+    color: blue;
+}
+
+.con1>img{
+    width: 200px;
+    
+}
+
+.data{
+    width: 35%;
+    float: right;
+}
+
+.con1{
+    padding: 4px;
+    margin: 28p;
+    width: 40%;
+    display: inline-block;
+}
+
+.data>h3{
+    margin: 10px 0px;
+}
+.data>p{
+    width: 154px;
+}
+
+@media screen and (max-width:520px){
+        .con1{
+            display: block;
+            text-align: left;
+        }
+
+        .data{
+            float: none;
+        }
+    }
+
+
